@@ -75,7 +75,7 @@ namespace Creditos.Vista
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
             this.pagoCreditoDataGridView.DataSource = this.pagoCreditoBindingSource;
-            this.pagoCreditoDataGridView.Location = new System.Drawing.Point(12, 92);
+            this.pagoCreditoDataGridView.Location = new System.Drawing.Point(2, 95);
             this.pagoCreditoDataGridView.Name = "pagoCreditoDataGridView";
             this.pagoCreditoDataGridView.ReadOnly = true;
             this.pagoCreditoDataGridView.Size = new System.Drawing.Size(526, 288);
@@ -106,12 +106,13 @@ namespace Creditos.Vista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(550, 400);
+            this.ClientSize = new System.Drawing.Size(529, 379);
             this.Controls.Add(this.pagoCreditoDataGridView);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.label1);
             this.Name = "FrmInfoCredito";
-            this.Text = "FrmInfoCredito";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Informacion de Credito";
             this.Load += new System.EventHandler(this.FrmInfoCredito_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pagoCreditoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pagoCreditoDataGridView)).EndInit();

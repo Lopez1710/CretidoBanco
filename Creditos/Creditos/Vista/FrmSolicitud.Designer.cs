@@ -43,7 +43,7 @@ namespace Creditos.Vista
             // txtNCuenta
             // 
             this.txtNCuenta.Enabled = false;
-            this.txtNCuenta.Location = new System.Drawing.Point(61, 34);
+            this.txtNCuenta.Location = new System.Drawing.Point(43, 32);
             this.txtNCuenta.Name = "txtNCuenta";
             this.txtNCuenta.Size = new System.Drawing.Size(209, 20);
             this.txtNCuenta.TabIndex = 1;
@@ -52,7 +52,7 @@ namespace Creditos.Vista
             // cmbPlasos
             // 
             this.cmbPlasos.FormattingEnabled = true;
-            this.cmbPlasos.Location = new System.Drawing.Point(61, 221);
+            this.cmbPlasos.Location = new System.Drawing.Point(43, 219);
             this.cmbPlasos.Name = "cmbPlasos";
             this.cmbPlasos.Size = new System.Drawing.Size(209, 21);
             this.cmbPlasos.TabIndex = 4;
@@ -63,7 +63,7 @@ namespace Creditos.Vista
             // cmbCantidad
             // 
             this.cmbCantidad.FormattingEnabled = true;
-            this.cmbCantidad.Location = new System.Drawing.Point(61, 282);
+            this.cmbCantidad.Location = new System.Drawing.Point(43, 280);
             this.cmbCantidad.Name = "cmbCantidad";
             this.cmbCantidad.Size = new System.Drawing.Size(209, 21);
             this.cmbCantidad.TabIndex = 5;
@@ -72,18 +72,18 @@ namespace Creditos.Vista
             // 
             // btnCrearSolicitud
             // 
-            this.btnCrearSolicitud.Location = new System.Drawing.Point(133, 354);
+            this.btnCrearSolicitud.Location = new System.Drawing.Point(97, 340);
             this.btnCrearSolicitud.Name = "btnCrearSolicitud";
-            this.btnCrearSolicitud.Size = new System.Drawing.Size(75, 23);
+            this.btnCrearSolicitud.Size = new System.Drawing.Size(117, 23);
             this.btnCrearSolicitud.TabIndex = 6;
-            this.btnCrearSolicitud.Text = "button1";
+            this.btnCrearSolicitud.Text = "Enviar Solicitud ";
             this.btnCrearSolicitud.UseVisualStyleBackColor = true;
             this.btnCrearSolicitud.Click += new System.EventHandler(this.btnCrearSolicitud_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(120, 18);
+            this.label1.Location = new System.Drawing.Point(104, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 13);
             this.label1.TabIndex = 6;
@@ -92,7 +92,7 @@ namespace Creditos.Vista
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(112, 82);
+            this.label3.Location = new System.Drawing.Point(94, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 13);
             this.label3.TabIndex = 9;
@@ -100,7 +100,7 @@ namespace Creditos.Vista
             // 
             // txtCodigoSeguridad
             // 
-            this.txtCodigoSeguridad.Location = new System.Drawing.Point(61, 98);
+            this.txtCodigoSeguridad.Location = new System.Drawing.Point(43, 96);
             this.txtCodigoSeguridad.Name = "txtCodigoSeguridad";
             this.txtCodigoSeguridad.Size = new System.Drawing.Size(209, 20);
             this.txtCodigoSeguridad.TabIndex = 2;
@@ -109,7 +109,7 @@ namespace Creditos.Vista
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(151, 148);
+            this.label4.Location = new System.Drawing.Point(133, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 13);
             this.label4.TabIndex = 11;
@@ -117,7 +117,7 @@ namespace Creditos.Vista
             // 
             // txtGarantia
             // 
-            this.txtGarantia.Location = new System.Drawing.Point(61, 164);
+            this.txtGarantia.Location = new System.Drawing.Point(43, 162);
             this.txtGarantia.Name = "txtGarantia";
             this.txtGarantia.Size = new System.Drawing.Size(209, 20);
             this.txtGarantia.TabIndex = 3;
@@ -127,7 +127,7 @@ namespace Creditos.Vista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 393);
+            this.ClientSize = new System.Drawing.Size(296, 393);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtGarantia);
             this.Controls.Add(this.label3);
@@ -138,7 +138,8 @@ namespace Creditos.Vista
             this.Controls.Add(this.cmbPlasos);
             this.Controls.Add(this.txtNCuenta);
             this.Name = "FrmSolicitud";
-            this.Text = "FrmSolicitud";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Solicitud ";
             this.Load += new System.EventHandler(this.FrmSolicitud_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

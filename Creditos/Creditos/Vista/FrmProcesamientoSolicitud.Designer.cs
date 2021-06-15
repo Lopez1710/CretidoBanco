@@ -60,10 +60,10 @@ namespace Creditos.Vista
             this.dataGridViewTextBoxColumn6,
             this.dataGridViewTextBoxColumn7});
             this.solicitudDataGridView.DataSource = this.solicitudBindingSource;
-            this.solicitudDataGridView.Location = new System.Drawing.Point(12, 80);
+            this.solicitudDataGridView.Location = new System.Drawing.Point(2, 80);
             this.solicitudDataGridView.Name = "solicitudDataGridView";
             this.solicitudDataGridView.ReadOnly = true;
-            this.solicitudDataGridView.Size = new System.Drawing.Size(776, 280);
+            this.solicitudDataGridView.Size = new System.Drawing.Size(796, 294);
             this.solicitudDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -123,7 +123,7 @@ namespace Creditos.Vista
             // 
             this.BtnProcesar.Location = new System.Drawing.Point(29, 32);
             this.BtnProcesar.Name = "BtnProcesar";
-            this.BtnProcesar.Size = new System.Drawing.Size(131, 23);
+            this.BtnProcesar.Size = new System.Drawing.Size(141, 33);
             this.BtnProcesar.TabIndex = 2;
             this.BtnProcesar.Text = "Procesar Solicitud";
             this.BtnProcesar.UseVisualStyleBackColor = true;
@@ -137,7 +137,8 @@ namespace Creditos.Vista
             this.Controls.Add(this.BtnProcesar);
             this.Controls.Add(this.solicitudDataGridView);
             this.Name = "FrmProcesamientoSolicitud";
-            this.Text = "FrmProcesamientoSolicitud";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Procesamiento Solicitud";
             this.Load += new System.EventHandler(this.FrmProcesamientoSolicitud_Load);
             ((System.ComponentModel.ISupportInitialize)(this.solicitudDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.solicitudBindingSource)).EndInit();

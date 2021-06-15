@@ -40,11 +40,12 @@ namespace Creditos
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(92, 41);
+            this.txtNombre.Location = new System.Drawing.Point(92, 45);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(207, 20);
             this.txtNombre.TabIndex = 0;
@@ -52,7 +53,7 @@ namespace Creditos
             // 
             // BtnInsertar
             // 
-            this.BtnInsertar.Location = new System.Drawing.Point(142, 269);
+            this.BtnInsertar.Location = new System.Drawing.Point(135, 269);
             this.BtnInsertar.Name = "BtnInsertar";
             this.BtnInsertar.Size = new System.Drawing.Size(75, 30);
             this.BtnInsertar.TabIndex = 6;
@@ -62,7 +63,7 @@ namespace Creditos
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(92, 80);
+            this.txtApellido.Location = new System.Drawing.Point(92, 84);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(207, 20);
             this.txtApellido.TabIndex = 2;
@@ -70,7 +71,7 @@ namespace Creditos
             // 
             // txtDUI
             // 
-            this.txtDUI.Location = new System.Drawing.Point(92, 123);
+            this.txtDUI.Location = new System.Drawing.Point(92, 127);
             this.txtDUI.Name = "txtDUI";
             this.txtDUI.Size = new System.Drawing.Size(207, 20);
             this.txtDUI.TabIndex = 3;
@@ -78,7 +79,7 @@ namespace Creditos
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(92, 165);
+            this.txtDireccion.Location = new System.Drawing.Point(92, 169);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(207, 20);
             this.txtDireccion.TabIndex = 4;
@@ -86,7 +87,7 @@ namespace Creditos
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(92, 209);
+            this.txtCodigo.Location = new System.Drawing.Point(92, 213);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(207, 20);
             this.txtCodigo.TabIndex = 5;
@@ -95,7 +96,7 @@ namespace Creditos
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 41);
+            this.label1.Location = new System.Drawing.Point(39, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 6;
@@ -104,7 +105,7 @@ namespace Creditos
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 83);
+            this.label2.Location = new System.Drawing.Point(39, 87);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 7;
@@ -113,7 +114,7 @@ namespace Creditos
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 126);
+            this.label3.Location = new System.Drawing.Point(51, 130);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(26, 13);
             this.label3.TabIndex = 8;
@@ -122,7 +123,7 @@ namespace Creditos
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 168);
+            this.label4.Location = new System.Drawing.Point(34, 172);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 9;
@@ -131,17 +132,27 @@ namespace Creditos
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(43, 212);
+            this.label5.Location = new System.Drawing.Point(43, 216);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "Codigo";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(71, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(228, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Bienvenido, Por favor rellene todos los campos";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(348, 311);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -154,7 +165,8 @@ namespace Creditos
             this.Controls.Add(this.BtnInsertar);
             this.Controls.Add(this.txtNombre);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Registro de Usuario";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,6 +185,7 @@ namespace Creditos
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
